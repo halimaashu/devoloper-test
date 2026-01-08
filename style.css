@@ -11,9 +11,18 @@
   font-weight: 400;
   font-style: normal;
 }
-.btn-hov{
+button:hover{
     background-color: hotpink;
+    cursor: pointer;
 }
+a:hover{
+    background-color: aqua;
+   
+}
+.card:hover{
+    background-color: hsl(0, 0%, 50%, 0.1);
+}
+
 .btn{
     display: flex;
     flex-direction: row;
@@ -61,7 +70,7 @@ nav a{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-image:linear-gradient(hsl(0, 0%, 0%, 0.3)), url(./assets/hero-bg.png);
+    background-image:linear-gradient(hsl(0, 0%, 0%, 0.2)), url(./assets/hero-bg.png);
     background-size: cover;
     height: 100%;
     align-items: center;
