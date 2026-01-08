@@ -138,12 +138,14 @@ nav a{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 10px;
     align-items: center;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     background: rgba(255, 255, 255, 1);
     padding: 24px;
     justify-content: center;
+    
 }
 .card-img{
     background: rgba(249, 85, 85, 1);
@@ -153,10 +155,11 @@ nav a{
 .card-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 16px;
 }
 .card-h1{
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 600;
     align-items: center;
 }
@@ -168,5 +171,26 @@ color: var(--#627382, rgba(98, 115, 130, 1));
 align-items: center;
 justify-content: center;
 }
+
+
+
+
+
+/* barain-sec */
+.barain-sec{
+    display: flex;
+    align-items: center;
+    padding:120px;
+    gap: 10px;
+}
+.brain-text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px;
+    
+     text-align: start;
+}
+
 
 
