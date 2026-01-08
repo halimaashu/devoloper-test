@@ -23,7 +23,8 @@
     padding: 10px 30px;
     background-color: #30B868;
     border: none;
-
+    max-width: 200px;
+    
 }
 
 
@@ -167,7 +168,7 @@ nav a{
     display: flex;
 font-size: 12px;
 font-weight: 400;
-color: var(--#627382, rgba(98, 115, 130, 1));
+color: hsl(0, 0%, 50%);
 align-items: center;
 justify-content: center;
 }
@@ -190,6 +191,17 @@ justify-content: center;
     padding: 16px;
     
      text-align: start;
+}
+
+/* thanks section */
+.tnx-sec{
+    margin: 70px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
 }
 
 
